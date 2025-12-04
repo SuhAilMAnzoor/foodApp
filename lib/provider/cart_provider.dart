@@ -7,7 +7,7 @@ class CartProvider extends ChangeNotifier {
   //  private list _cart to store the cart items, each represented by a cartModel
   List<CartModel> _carts = [];
 
-  // getter for _Carts to access the list of cart items.
+  // getter for _Carts to access the list of cart items
   List<CartModel> get carts => _carts;
 
   //setter for _carts. update the cart list and notifies listeners when it changes.
